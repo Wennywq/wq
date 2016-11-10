@@ -24,7 +24,7 @@
      	"txt2":"音乐剧",
      	"txt3":"32",
      	"txt4":"15,498",
-     	"img":"../images/index-img2.png"
+     	"img":"images/index-img2.png"
      },
      {
 
@@ -35,7 +35,7 @@
           "txt2":"微电影",
           "txt3":"80",
           "txt4":"100,000",
-          "img":"../images/index-img3.png"  
+          "img":"images/index-img3.png"  
      },
      {
           "id":"3",
@@ -45,7 +45,7 @@
           "txt2":"音乐剧",
           "txt3":"76",
           "txt4":"62,590",
-          "img":"../images/index-img4.png"
+          "img":"images/index-img4.png"
      }
      ],
      "title":[
@@ -71,7 +71,7 @@
                "txt4":"23",
                "txt5":"23,548",
                "txt6":"243",
-               "img":"../images/imgList1.jpg"
+               "img":"images/imgList1.jpg"
           },
           {    
                "id":"3",
