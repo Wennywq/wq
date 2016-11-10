@@ -1,0 +1,11 @@
+{
+	"banner":[
+       {        
+       	   "img":"images/img-1.png"
+       },
+       {       
+            "img":"images/img-2.png"
+       }
+	]
+	
+}

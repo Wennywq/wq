@@ -1,0 +1,103 @@
+/*重置*/
+*{margin: 0;padding: 0;font-size: 12px;color:#000;font-family: '微软雅黑';}
+li{list-style: none;}
+a{text-decoration: none;}
+img{display: block;width: 100%;border:0 none;}
+h1,h2,h3,h4,h5,h6{font-weight: normal;}
+input{outline: 0;}
+.clear:after{content: "";clear: both;height: 0;display: block;visibility: hidden;}
+/*兼容IE7以下*/
+.clear{*zoom:1;} 
+
+// 尾部
+.footer{
+	margin-top:40px;
+	height: 300px;
+	padding-top: 70px;
+	background-color: #333333;
+	.footer-box{
+		li{
+			float: left;
+			text-align: left;
+			box-sizing: border-box;
+			padding:0 20px;
+		}
+		.li1{
+			width: 40%;
+			.li1-title{
+				.logo1{
+					width: 20%;
+					float: left;
+				}
+				.li1-title-right{
+					float: right;
+					margin-bottom: 30px;
+					a{
+						float: left;
+						margin-left: 10px;
+					}
+				}
+			}
+			p{
+				color: #9b9999;
+				line-height: 18px;
+			}
+		}
+		.li2{
+			width: 20%;
+			ul{
+				li{
+					color: #9b9999;
+					font-size: 12px;
+					line-height: 24px;
+				}
+				.contact{
+					font-size: 16px;
+					color: #fefefe;
+				}
+				.email{
+					input{
+						float: left;
+						width:50px;
+						margin-right: 3px;
+						color: #9b9999;
+						height: 26px;
+						padding: 0 15px;
+						border: 1px solid #4e4c4c;
+						background-color: #4e4c4c;
+					}
+					span{
+						float: left;
+						cursor:pointer;
+						padding:2px 10px;
+						background-color: #828282;
+					}
+				}
+			}
+		}
+	}
+	address{
+		margin-top: 80px;
+		padding-top: 20px;
+		border-top: 2px solid #808080;
+		.addr-left{
+			float: left;
+			span{
+				color: #808080;
+				.Del{
+					color: #cbcbcb;
+				}
+			}
+		}
+		.addr-right{
+			float: right;
+			span{
+				color: #808080;
+				margin:0 5px;
+			}
+			a{
+				color: #808080;
+			}
+		}
+	}
+}

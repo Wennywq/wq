@@ -1,0 +1,105 @@
+.showImg{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+.showImg img.slideImg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+}
+.showImg .slidePointer{
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 15px;
+	text-align: center;
+	font-size: 0;
+	z-index: 2;
+}
+.showImg .slidePointer span{
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	margin: 0 5px;
+	background: #eee;
+	cursor: pointer;
+	display: inline-block;
+}
+.showImg .slide-txt{
+	width:700px;
+	left: 24%;
+	top: 40%;
+	text-align: center;
+	position: absolute;
+	z-index: 10;
+}
+.showImg .slide-txt p{
+	color: #fff;
+}
+.showImg .slide-txt .txt1{
+	font-weight: 700;
+	font-size: 25px;
+	margin-bottom: 33px;
+}
+.showImg .slide-txt .txt1 .txt1-1{
+	color: #87b672;
+	font-size: 25px;
+}
+.showImg .slide-txt .txt2{
+	margin-bottom:30px;
+}
+.showImg .slide-txt .btn{
+	width: 100px;
+	margin: 0 auto;
+	cursor:pointer;
+	border: 1px solid #fff;
+	padding: 10px 0;
+}
+.showImg .slidePointer span:hover,.showImg .slidePointer span.active{
+	background: #EF1111;
+}
+
+.showImg .mask{
+	width: 100%;
+	height: 500px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index:14;
+	color: #fff;
+	text-align: center;
+	background:rgba(0,0,0,0.8);
+}
+
+.showImg .mask{
+	display: none;
+}
+.showImg .mask .txt{
+	width: 300px;
+	height: 200px;
+	box-sizing: border-box;
+	padding:100px 0px;
+	text-align: center;
+	margin: 150px auto;
+	border-radius: 3px;
+	background-color: #fff;
+}
+.showImg .mask .txt span{
+	// margin-right:30px;
+	color: #fff;
+	cursor:pointer;
+	padding:10px 20px;
+	border-radius: 3px;
+}
+.showImg .mask .txt .span1{
+     background-color: #87b672;
+}
+.showImg .mask .txt .span2{
+     background-color: #ccc;
+}

@@ -1,0 +1,26 @@
+<div class="showImg">
+	##for(var i=0;i<imgs.length;i++){##
+	<img class="slideImg" src="{{imgs[i].imgsrc}}" alt="">
+	##}##
+    <div class="slidePointer">
+        ##for(var i=0;i<imgs.length;i++){##
+        	##if(i==imgs.length-1){##
+			<span class="active"></span>
+        	##}else{##
+			<span></span>
+        	##}##
+		##}##
+    </div>
+    <div class="slide-txt">
+    	<p class="txt1">WE <span class="txt1-1">DELIVER</span> NOTHING SHORT OF AWESOME</p>
+    	<p class="txt2">check out our portfolio to see our great work.</p>
+    	<p class="btn">PORTFOLIO</p>
+    </div>
+    <!-- 模态框 -->
+    <div class="mask">
+         <div class="txt">
+            <span class="span1">yes</span>
+            <span class="span2">no</span>
+         </div>
+    </div>
+</div>
